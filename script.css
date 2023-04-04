@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Playfair+Display:wght@400;500&family=Tilt+Neon&display=swap');
+
+
+body{
+    background-color: #0A0A2A;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 27px;
+    text-transform: uppercase;
+    padding-right: 35px;
+    color: #e6a8ff;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    background-color: #0A0A2A;
+    padding: 30px;
+}
+
+.sociais button{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #8B008B, #9932CC);
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.sociais button i{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+/* BANNER PAGINA INICIAL */ 
+
+.home{
+    height: 50vw;
+    display: flex;
+    padding-left: 150px;
+    justify-content: space-around;
+}
+
+.texto{
+    padding-top: 270px;
+}
+
+.texto-principal{
+    font-size: 70px;
+    color: #e6a8ff; 
+   
+}
+
+.descricao{
+    font-size: 24px;
+    color: white;
+}
+
+.foto-de-perfil{
+   padding-top: 120px;
+   padding-right: 70px;
+}
+
+.foto{
+    display: flex;
+    width: 560px;
+    border-radius: 50%;
+    background-color: #9932CC;
+}
+
+
+ /* Seçao sobre mim */
+
+ .sobre-mim{
+    background-color: #0f0f39;
+    height: 55vw;
+    width: 100%;
+ }
+
+ .sobre-mim-titulo{
+    padding-top: 150px;
+    display: flex;
+   margin-left: 110px;
+   font-size: 70px;
+   color: #e6a8ff;
+ }
+
+ .sobre-mim-descricao{
+    font-size: 24px;
+    color: white;
+    margin-left: 110px;
+    margin-top: 18px;
+ }
+
+ .botoes-sobre-mim{
+    width: auto;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-size: 400% 100%;
+    border-radius: 6px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #4B0082, #9932CC, #DA70D6, #e6a8ff); 
+}
+
+.bloco-botoes{
+    margin-left: 110px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+ /* skills e hobbies */ 
+
+ .skills{
+    height: 65vw;
+    width: 100%;
+ }
+
+ .minhas-skills-titulo{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #e6a8ff;
+ }
+
+ li{
+    list-style: none;
+ }
+
+ .bloco-skills{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+ }
+
+  .icons-skills, #fav{
+    display: flex;
+    color: white;
+    background-color: #4B0082;
+    font-size: 47px;
+    padding: 40px;
+    margin-left: 10px;
+  }
+
+  .icons-skills, h3{
+    flex-direction: column;
+    font-size: 23px;
+    align-items: center;
+    font-family: 'Tilt Neon';
+  }
+
+  .icons-skills{
+    max-height: 250px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .icons-skills:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+  }
+
+  .hobbies-titulo{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #e6a8ff;
+  }
+
+  .bloco-hobbies{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+ }
+
+  .icons-hobbies, #fav {
+    display: flex;
+    color: white;
+    background-color: #4B0082;
+    font-size: 47px;
+    padding: 40px;
+    margin-left: 10px;
+  }
+
+  .icons-hobbies, h3{
+    flex-direction: column;
+    font-size: 23px;
+    align-items: center;
+    font-family: 'Tilt Neon';
+  }
+
+  .icons-hobbies{
+    max-height: 250px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .icons-hobbies:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+  }
+  
+  /* Projetos */ 
+
+  .projetos{
+    height: 60vw;
+    width: 100%;
+    background-color: #0f0f39;
+  }
+
+  .projetos-titulo{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #e6a8ff;
+  }
+ 
+
+  .projetos{
+    background:#0f0f39;
+}
+
+.projetos .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projetos .box-container .box{
+  padding-top: 30px;
+    margin:1rem;
+    height: 25rem;
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.projetos .box-container .box img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+
+  .projetos .box-container .box .info{
+    position: absolute;
+    top:-100%; left: 0;
+    background:#9932CC;
+    color:#fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.projetos .box-container .box:hover .info{
+    top:0;
+}
+
+.projetos .box-container .box:hover img{
+    transform: scale(1.2);
+}
+  
+
+ /* Formulario */
+
+ .formulario{
+  height: 50vw;
+  width: 100%;
+ }
+
+ .formulario-titulo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: #e6a8ff;
+ }
+
+ .bloco-form{
+  margin-top: 60px;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+ }
+
+ form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+ }
+
+ .imagem-form{
+   width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 60px;
+ }
+
+
+form label, form p{
+  color: #4B0082;
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 70%;
+}
+
+textarea{
+  resize: none;
+}
+
+.enviar{
+  width: 75%;
+  padding: 15px 0;
+  background: #4B0082;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background-color: #DA70D6;
+  transform: scale(1.1);
+}
+
+/* footer */
+
+.footer{
+  height: 2vw;
+  width: 100%;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #0A0A2A;
+  color: #fff;
+  padding-top: 15px;
+}
